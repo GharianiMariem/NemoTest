@@ -4,25 +4,16 @@ using System.Drawing;
 
 namespace Nemo.Market.Kata.Classes
 {
-    public class Pipe
+    public class Pipe : Positionable
     {
         public Pipe()
         {
         }
-
-        private Point _position;
-
-        public Point Position => _position;
         public int Diameter { get; private set; }
-
-        internal void SetPosition( Point point )
-        {
-            throw new NotImplementedException();
-        }
 
         internal void SetDiameter(PipeDiameter pipeDiameter)
         {
-            throw new NotImplementedException();
+            Diameter = (int)PipeDiameter.Large;
         }
     }
 }

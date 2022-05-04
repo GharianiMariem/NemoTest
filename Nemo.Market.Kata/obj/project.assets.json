@@ -5717,23 +5717,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DK6071\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Mghariani\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DK6071\\source\\repos\\Nemo.Market.Kata\\Nemo.Market.Kata\\Nemo.Market.Kata.csproj",
+      "projectUniqueName": "C:\\Kata\\Nemo.Market.CSharp\\Nemo.Market.Kata\\Nemo.Market.Kata.csproj",
       "projectName": "Nemo.Market.Kata",
-      "projectPath": "C:\\Users\\DK6071\\source\\repos\\Nemo.Market.Kata\\Nemo.Market.Kata\\Nemo.Market.Kata.csproj",
-      "packagesPath": "C:\\Users\\DK6071\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DK6071\\source\\repos\\Nemo.Market.Kata\\Nemo.Market.Kata\\obj\\",
+      "projectPath": "C:\\Kata\\Nemo.Market.CSharp\\Nemo.Market.Kata\\Nemo.Market.Kata.csproj",
+      "packagesPath": "C:\\Users\\Mghariani\\.nuget\\packages\\",
+      "outputPath": "C:\\Kata\\Nemo.Market.CSharp\\Nemo.Market.Kata\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DK6071\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mghariani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5791,7 +5792,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

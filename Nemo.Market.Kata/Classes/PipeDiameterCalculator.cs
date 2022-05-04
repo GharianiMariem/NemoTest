@@ -11,7 +11,26 @@ namespace Nemo.Market.Kata.Classes
 
         internal PipeDiameter ProcessDiameter( int v )
         {
-            throw new NotImplementedException();
+            if (v <= 0 || v >= 21)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+            else if (v < 6)
+            {
+                return PipeDiameter.Small;
+            }
+           else if(v < 11)
+            {
+                return PipeDiameter.Medium;
+            }
+            else if(v < 16)
+            {
+                return PipeDiameter.Large;
+            } 
+            else
+            {
+                return PipeDiameter.ExtraLarge;
+            }
         }
     }
 }

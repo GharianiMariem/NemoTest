@@ -79,8 +79,29 @@ namespace Nemo.Market.Kata.Tests
 
             project.Add( building1 );
             Assert.ThrowsException<ArgumentException>( () => project.Add( building2));
-        }
+        } 
+        [TestMethod]
+        public void project_cannot_accept_pipe_at_same_position()
+        {
+            Project project = new Project();
 
+            var pipe1 = new Pipe();
+            var pipe2 = new Pipe();
+
+            project.Add(pipe1);
+            Assert.ThrowsException<ArgumentException>( () => project.Add(pipe2));
+        }
+          [TestMethod]
+        public void project_cannot_accept_power_plant_at_same_position()
+        {
+            Project project = new Project();
+
+            var plant1 = new PowerPlant();
+            var plant2 = new PowerPlant();
+
+            project.Add(plant1);
+            Assert.ThrowsException<ArgumentException>(() => project.Add(plant2));
+        }
 
     }
 

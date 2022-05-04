@@ -3,14 +3,8 @@ using System.Drawing;
 
 namespace Nemo.Market.Kata.Classes
 {
-    public class PowerPlant
+    public class PowerPlant : Positionable
     {
-
-        public Point Position { get; private set; }
-
-        internal void SetPosition( Point position )
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
